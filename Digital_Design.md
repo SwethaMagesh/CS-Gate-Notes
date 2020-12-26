@@ -8,7 +8,7 @@ Inputs : A and 1  NAND Output: A'
 Inputs : A and 0  NOR  Output: A'
 
 ---
-## Combinational circuits
+## Combinational circuits!
 ### Decoder
 - n x 2 pow n 
 
@@ -40,7 +40,7 @@ Opposite to mux
 - PISO alone - has F which decides load or previous input
 
 ### Counters
-- Asynchronous
+- Asynchronous - no univ clock == prev output as clock     
 - Synchronous
 - Preset and Clear - 
 - Steps: 
