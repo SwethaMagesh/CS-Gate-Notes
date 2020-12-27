@@ -43,6 +43,7 @@ Opposite to mux
 ### Counters
 - Asynchronous - no univ clock == prev output as clock     
 - Synchronous
+- The one advantage of synchronous counter over asynchronous counter is, it can operate on higher frequency than asynchronous counter as it does not have cumulative delay because of same clock is given to each flip flop.
 - Preset and Clear - 
 - Steps: 
   - Truth table for the Flipflop
