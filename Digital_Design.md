@@ -31,6 +31,7 @@ Opposite to mux
 - Outputs depend on present input
 - Latch - no clock
 - Flipflop - SR , D , JK , T
+- Flipflop is also called as Bistable Multivibrator since it has two stable states either 0 or 1.
 - NOR SR latch and Flipflop SR similar Truth table
 - Edge and level trigger
 
