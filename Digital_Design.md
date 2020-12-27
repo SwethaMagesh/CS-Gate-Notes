@@ -43,8 +43,12 @@ Opposite to mux
 ### Counters
 - Asynchronous - no univ clock == prev output as clock     
 - Synchronous
+- Decade counter, Up counter, down counter
 - The one advantage of synchronous counter over asynchronous counter is, it can operate on higher frequency than asynchronous counter as it does not have cumulative delay because of same clock is given to each flip flop.
 - Preset and Clear - 
+    - Asynchronous inputs on a flip-flop have control over the outputs (Q and not-Q) regardless of clock input status.
+    - These inputs are called the preset (PRE) and clear (CLR). The preset input drives the flip-flop to a set state while the clear input drives it to a reset state.
+    - It is possible to drive the outputs of a J-K flip-flop to an invalid condition using the asynchronous inputs, because all feedback within the multivibrator circuit is overridden.
 - Steps: 
   - Truth table for the Flipflop
   - Excitation Table 
