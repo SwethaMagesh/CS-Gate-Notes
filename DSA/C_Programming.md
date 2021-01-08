@@ -52,6 +52,8 @@
 - Size of a union is taken according the size of largest member in union.
 - Base address is same as base address of each member
 
+ ![image](https://user-images.githubusercontent.com/43994542/104040792-1c1ae600-51fe-11eb-8182-692b34ea0f78.PNG)
+
 ---
 ### typedef
 - `typdef int char ;` is not valid
