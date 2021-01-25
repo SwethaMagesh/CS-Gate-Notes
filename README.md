@@ -1,5 +1,7 @@
 # CS-Gate-Notes
 Notes for the Core CS and Math subjects
+
+[***Important topics***](https://www.gatevidyalay.com/gate-important-topics-for-cse-gate-2019/)
 # General Aptitude
 ## Verbal Aptitude
 - Basic English grammar: tenses, articles, adjectives, prepositions, conjunctions, verb-noun agreement, and other parts of speech

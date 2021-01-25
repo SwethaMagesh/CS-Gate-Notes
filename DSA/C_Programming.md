@@ -13,6 +13,7 @@
 ## realloc()
 
 - Increase the existing size
+- Eg: ` ptr_new = (int *)realloc(ptr, sizeof(int)*3);`
 
 ## free()
 
@@ -57,4 +58,12 @@
 ---
 ### typedef
 - `typdef int char ;` is not valid
-- 
+---
+## Points to Remember
+###  Switch case statement 
+1. Expression must be int, char or enum
+1. Continuous execution till break
+1. Default can be placed anywhere
+1. Statements above first case, never executed
+1. Case labels can not have variable names. (only constant allowed)
+1. Case labels can not have same value

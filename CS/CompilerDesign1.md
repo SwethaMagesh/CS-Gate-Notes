@@ -57,6 +57,8 @@
 ### Types of parsers
 
 1. ***Top-Down parsers***
+>- Backtracking and non backtracking parsing
+>- Non backtracking - 1. Recursive descent and 2. Non recursive descent (predictive parse)
     1. *LL(0)*
     1. *LL(1)*  *predictive parser*
     1. *Others...*
@@ -69,10 +71,11 @@
     - ***LR(0) ⊆ SLR(1) ⊆ LALR(1) ⊆ CLR(1)*** 
     1. *Operator Precedence Parser*
 1. Others....
+- Based on GNF, not practical
 ---
 ### Top down parsers Types:
 1. Recursive descent 
-    - Procedure for every production
+    - Procedure for every production (NT)
 1. Non recursive descent
     - Table implemented (Stored CFG)
 ---
