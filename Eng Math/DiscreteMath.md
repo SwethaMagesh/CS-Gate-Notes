@@ -9,7 +9,7 @@
 - Eg: `R={(a,b)| a<=b}` 
 - *less than, less than equal, equal to*
 - ***All asymmetric relations are antisymmetric*** 
-![image](https://user-images.githubusercontent.com/43994542/106768586-0dd7b280-6662-11eb-8b01-939004521350.png)
+<img src="https://user-images.githubusercontent.com/43994542/106768586-0dd7b280-6662-11eb-8b01-939004521350.png" height=100>
 ---
 ### Transitive Relations
 - Check methodically 
@@ -49,7 +49,8 @@ Relations And Functions
 - **Group**
 - **Abelian group**
 - Satisfies Closure, Associative, Identity, Inverse, and Commutativity
- ![image](https://user-images.githubusercontent.com/43994542/106772590-2d70da00-6666-11eb-8f09-25d2b81893b7.png)
+
+<img src="https://user-images.githubusercontent.com/43994542/106772590-2d70da00-6666-11eb-8f09-25d2b81893b7.png" height=200>
 
 ##### Some Examples
 ```
@@ -118,7 +119,7 @@ Relations And Functions
 #### Boolean 
 - Distributed and Complemented 
 - Every element has exactly 1 complement
-<img src="https://user-images.githubusercontent.com/43994542/106778738-4bd9d400-666c-11eb-9e78-3baf43f076fd.png" width=300 height=150>
+<img src="https://user-images.githubusercontent.com/43994542/106778738-4bd9d400-666c-11eb-9e78-3baf43f076fd.png" width=200 height=100>
 
 
 

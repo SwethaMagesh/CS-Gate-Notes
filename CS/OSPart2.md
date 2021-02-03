@@ -52,6 +52,8 @@
     - `s is divided as |m|d2|`
     - `d is divided as |p|d1|`
 - m is page table for the segment table and p is page table for the segment
+    - ![image](https://user-images.githubusercontent.com/43994542/106783583-74180180-6671-11eb-8207-445b1fd7b3ac.png)
+
 ---
 ## File system
 - DBA - Database admin
@@ -66,7 +68,13 @@
     1. Disadv: 
         - when link breaks due to malware or something, the next part is completely unaccessible
         - Address is stored in each block which wastes time.
+        - ![image](https://user-images.githubusercontent.com/43994542/106784247-22bc4200-6672-11eb-8a20-b8dde0ca25ca.png)
+
 1. Indexed -> INODE structure  
-    -
+    - One block just to store the DBA(s) of the file
+    - Every file has index block
+    - If file is large then, one block is not sufficient to store the DBAs for the file
+    - If file is too small, waste of using one disk block for just storing DBAs
+
 
 
