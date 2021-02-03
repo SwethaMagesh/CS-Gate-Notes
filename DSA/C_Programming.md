@@ -1,9 +1,32 @@
+- C and C++ are context-sensitive languages.
+## Pointer
+- `int *A [10], B[10][10];  `
+- Of the following expressions
+1. A[2]
+1.  A[2][3]
+1.  **B[1] - invalid**
+1.  B[2][3]
+- Remaining are valid LHS for assignment statements
+
 ## Dynamic Allocation
+
 
 ## malloc()
 
 - Garbage values initialised
 - Single argument
+- 
+```
+int *g (void)  
+{  
+  int *px;  
+  px = (int *) malloc (sizeof(int));  
+  *px = 10; 
+  return px;  
+}  
+```
+- Causes no problem. The allocated memory on heap and can be used anytime
+
 
 ## calloc()
 
@@ -18,6 +41,19 @@
 ## free()
 
 - Deallocates Dynamically allocated values.
+
+## Array
+- Row major order address calculation: 
+`Address of A [ I ][ J ] = B + W * [ N * ( I – Lr ) + ( J – Lc ) ]`
+- *Where,
+B = Base address
+I = Row subscript of element whose address is to be found
+J = Column subscript of element whose address is to be found
+W = Storage Size of one element stored in the array (in byte)
+Lr = Lower limit of row/start row index of matrix, if not given assume 0 (zero)
+Lc = Lower limit of column/start column index of matrix, if not given assume 0 (zero)
+M = Number of row of the given matrix
+N = Number of column of the given matrix*
 
 ---
 ## User-Defined Types
