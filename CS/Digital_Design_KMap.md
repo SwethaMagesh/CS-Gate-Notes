@@ -10,6 +10,13 @@
 - Overlapping allowed.
 - Wrap around allowed.
 - Fewest number of groups possible.
+## Implicants
+- Prime implicants
+- Essential prime implicants
+- Redundant prime implicants
+- Selective prime implicants
+## Self duals
+- 
 ## SOP AND POS
 #### *Always remember POS ≠ (SOP)’*
 #### *The correct form is (POS of F)=(SOP of F’)’*

@@ -1,3 +1,15 @@
+## Floating point representation
+- Single and Double precision
+- Normalisation
+    - 1.N 2<sup>E-127</sup>
+    - 1.N 2<sup>E-1023</sup>
+- Sign bit is 1 if negative
+![image](https://user-images.githubusercontent.com/43994542/107026204-61680e80-67d0-11eb-8100-afe72660d05f.png)
+![image](https://user-images.githubusercontent.com/43994542/107026244-72188480-67d0-11eb-8820-b9247450275f.png)
+---
+
+---
+
 ![image](https://user-images.githubusercontent.com/43994542/106784718-a83ff200-6672-11eb-84e6-7df377371093.png)
 
 ![image](https://user-images.githubusercontent.com/43994542/106785810-d540d480-6673-11eb-9e0e-8b47d14b0ff0.png)

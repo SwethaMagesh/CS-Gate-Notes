@@ -18,3 +18,11 @@ If the CRC generator is chosen according to the above rules, then-
 >- If total number of 1’s is even and odd parity is used, then receiver assumes that error occurred.
 >- If total number of 1’s is odd and odd parity is used, then receiver assumes that no error occurred.
 >- If total number of 1’s is odd and even parity is used, then receiver assumes that error occurred.
+
+### Cryptographic attacks
+***Birthday ATTACKS: Digital signature susceptibility*** –
+Digital signatures can be susceptible to birthday attack. A message m is typically signed by first computing H(m), where H is cryptographic hash function, and then using some secret key to sign H(m). Suppose Alice want to trick Bob into signing a fraudulent contract. Alice prepare a fair contract m and fraudulent one m’. She then finds a number of positions where m can be changed without changing the meaning, such as inserting commas, empty lines, one versus two spaces after a sentence, replacing synonyms etc. By combining these changes she can create a huge number of variations on m which are all fair contracts.
+
+Similarly, Alice can also make some of these changes on m’ to take it even more closer towards m, that is H(m) = H(m’). Hence, Alice can now present the fair version m to Bob for signing. After Bob has signed, Alice takes the signature and attaches to it the fraudulent contract. This signature proves that Bob has signed the fraudulent contract.
+
+To avoid such an attack the output of hash function should be a very long sequence of bits such that birthday attack now becomes computationally infeasible.
