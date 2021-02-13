@@ -1,4 +1,12 @@
+## Points
+- For a simple, connected, planar graph with v vertices and e edges and f faces, the following simple conditions hold for v ≥ 3:
 
+- Theorem 1. e ≤ 3v − 6;
+- Theorem 2. If there are no cycles of length 3, then e ≤ 2v − 4.
+- Theorem 3. f ≤ 2v − 4. 
+
+-- 
+- In mathematics, the four color theorem, or the four color map theorem, states that, given any separation of a plane into contiguous regions, producing a figure called a map, no more than four colors are required to color the regions of the map so that no two adjacent regions have the same color.
 ## Fast review screenshots
 
 ![Screenshot (393)](https://user-images.githubusercontent.com/43994542/107756947-ef9d4100-6d4a-11eb-922d-ffd72f16614b.png)
