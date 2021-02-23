@@ -88,9 +88,55 @@ N = Number of column of the given matrix*
 
 - Size of a union is taken according the size of largest member in union.
 - Base address is same as base address of each member
+```c
+#include <stdio.h>
+int main()
+{
+    // Note: Unions can be declared inside.
+    union test{
+        int x[2];
+        char y;
+    };
+    
+   union test p1;
+  p1.x[1] = 65; // Output: 49 65 1
+//   p1.x[0] = 65; // Output: 49 0 1
+   
+   union test *p2 = &p1;
+   p2 -> y = '1';
+   
+   printf("%d %d %c", p2->x[0], p2->x[1], p2->y);
+    return 0;
+}
+```
 
- ![image](https://user-images.githubusercontent.com/43994542/104040792-1c1ae600-51fe-11eb-8182-692b34ea0f78.PNG)
-
+---
+## Enum
+```c
+#include <stdio.h>
+int main()
+{
+    enum power{a, b, c=3, d};
+    printf("%d, %d, %d, %d\n", a, b, c, d);
+    
+    int var1 = c; //This is also correct
+    enum power var2 = c;
+    printf("%d\n", var1);
+    printf("%d\n", var2);
+    
+    float arr[b+d] = {1.f, 2.f, 3.f, 4.f, 5.f};
+    enum power p = d;
+    printf("%f", arr[p>>1+1]); // Checkout operator precedence (bitwise has less precedence than arithmetic operators)
+    return 0;
+}
+```
+- Output:
+```
+0, 1, 3, 4                                              
+3                                             
+3                                            
+2.000000
+```
 ---
 ### typedef
 - `typdef int char ;` is not valid
