@@ -51,7 +51,31 @@ A given relation is called in First Normal Form (1NF) if each cell of the table 
 - ` Common attribute must be super key of either R1 or R2 or both`   
 - To prove for more subrelations, consider one step at a time, each having 2 Subrelations
 ---
+### Unique key constraints
+- Unique can have one null value
 
+### Foreign key
+- Foreign key must be either primary key or unique column of other table
+
+### Between operator
+The BETWEEN operator is **inclusive**: begin and end values are included.
+
+### Char vs Varchar
+### Varchar vs Varchar2
+- Varchar 1 to 2000 bytes
+- Varchar2 1 to 4000 bytes
+
+### ON vs WHERE condition
+- ON (Before joining)
+- WHERE (After joining)
+
+### JOIN USING
+- See syntax
+
+### Natural vs Inner 
+- Column doesn't repeat and column repeats
+ 
+---
 
 # Doubts
 - Transaction
