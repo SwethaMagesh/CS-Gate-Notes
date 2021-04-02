@@ -74,7 +74,23 @@ The BETWEEN operator is **inclusive**: begin and end values are included.
 
 ### Natural vs Inner 
 - Column doesn't repeat and column repeats
- 
+
+### UNION, INTERSECTION, MINUS
+- column name not necessarily same
+- But must have analogous data types
+
+#### UNION
+- Union - no duplicate
+- Union all - duplicates
+
+#### WHERE vs HAVING, ORDER BY - doubt
+- Different attribute
+
+#### With construct
+
+#### Scalar subqueries
+
+#### Sequences - Cycle
 ---
 
 # Doubts
