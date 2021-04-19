@@ -74,6 +74,7 @@ The BETWEEN operator is **inclusive**: begin and end values are included.
 
 ### Natural vs Inner 
 - Column doesn't repeat and column repeats
+- In natural join there is no "on". while inner join works only with "on".//dhan
 
 ### UNION, INTERSECTION, MINUS
 - column name not necessarily same
