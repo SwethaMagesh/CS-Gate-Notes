@@ -69,3 +69,25 @@ unsigned int foo(unsigned int n, unsigned int r) {
 } 
 ```
 - No of set bits in binary notation
+
+- Snippet:
+```
+#include <stdio.h>
+int main()
+{
+    float x = 'a';
+    printf("%f", x);
+    return 0;
+}
+```
+- Produces output 97.000000 not a runtime error.
+```
+#include<stdio.h>
+int main() 
+{
+int a=3.14;
+printf("%d",a);
+return 0;
+}
+```
+- Produces output 3 not error. 
