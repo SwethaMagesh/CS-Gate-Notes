@@ -49,6 +49,7 @@
 
 ---
 # Snippets
+
 ```
 #include <stdio.h>
 int main()
@@ -62,6 +63,7 @@ int main()
 }
 ```
 - It produces output 0000 because static variable is retained after scope and shared. 
+---
 ```
 unsigned int foo(unsigned int n, unsigned int r) { 
   if (n  > 0) return (n%r +  foo (n/r, r )); 
@@ -69,8 +71,7 @@ unsigned int foo(unsigned int n, unsigned int r) {
 } 
 ```
 - No of set bits in binary notation
-
-- Snippet:
+---
 ```
 #include <stdio.h>
 int main()
@@ -78,9 +79,10 @@ int main()
     float x = 'a';
     printf("%f", x);
     return 0;
-}
+} 
 ```
 - Produces output 97.000000 not a runtime error.
+---
 ```
 #include<stdio.h>
 int main() 
@@ -90,4 +92,18 @@ printf("%d",a);
 return 0;
 }
 ```
+
 - Produces output 3 not error. 
+--- 
+```
+#include <stdio.h>
+int main()
+{
+int y = 1;
+if (y & (y = 2))
+    printf("true %d\n");
+else
+    printf("false %d\n");
+}
+```
+- Output: True garbagevalue
