@@ -122,7 +122,7 @@ Relations And Functions
 #### Boolean 
 - Distributed and Complemented 
 - Every element has exactly 1 complement
-<img src="https://user-images.githubusercontent.com/43994542/106778738-4bd9d400-666c-11eb-9e78-3baf43f076fd.png" width=200 height=100>
+<img src="https://user-images.githubusercontent.com/43994542/106778738-4bd9d400-666c-11eb-9e78-3baf43f076fd.png" width=300 height=300>
 
 
 
