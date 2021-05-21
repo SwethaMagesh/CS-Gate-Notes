@@ -10,7 +10,10 @@
 - *less than, less than equal, equal to*
 - ***All asymmetric relations are antisymmetric*** 
 <img src="https://user-images.githubusercontent.com/43994542/106768586-0dd7b280-6662-11eb-8b01-939004521350.png" height=100>
+
+
 ---
+
 ### Transitive Relations
 - Check methodically 
 - *less than, less than equal, equal to*
