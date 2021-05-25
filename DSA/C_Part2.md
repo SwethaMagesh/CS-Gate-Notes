@@ -49,6 +49,15 @@
 
 ---
 # Snippets
+```
+if(-394){ //anything other than 0 and even '0' is positive
+        printf("true");
+    }
+    else{
+        printf("false");
+    }
+```
+- Output: True
 
 ```
 #include <stdio.h>
@@ -100,10 +109,27 @@ return 0;
 int main()
 {
 int y = 1;
-if (y & (y = 2))
+if (y & (y = 2)) // y is assigned 2 and 2 & 2 = TRUE
     printf("true %d\n");
 else
     printf("false %d\n");
 }
 ```
 - Output: True garbagevalue
+---
+```
+#include <stdio.h>
+int main()
+{
+    int a = 10;
+    if (a == a--)
+        printf("TRUE 1\t");
+    a = 10;
+    if (a == --a)
+        printf("TRUE 2\t");
+}
+```
+- Output: True 2
+- Note: `%3d and %03d will print <space><space>1 and 001 respectively`
+- Switch case can compare only `int, char or enum`
+- 
