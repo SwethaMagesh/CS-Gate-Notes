@@ -38,7 +38,10 @@
         - but if `x =4 ; int const *i=&p; x=5; // changing x is valid; but not (*i)` 
 - `const int i=3;` and `int const i=3;` are same
 
-
+### Data Type sizes
+- Only long changes in 32 and 64 bits
+- Int 4 & 4 bytes
+- [Reference](https://docs.oracle.com/cd/E19253-01/817-6223/chp-typeopexpr-2/index.html)
 
 ### Doubts:
 - Typedef
@@ -132,4 +135,33 @@ int main()
 - Output: True 2
 - Note: `%3d and %03d will print <space><space>1 and 001 respectively`
 - Switch case can compare only `int, char or enum`
-- 
+---
+
+```cpp
+#include <stdio.h>
+void main()
+{
+    int a[2][3] = {1, 2, 3, 4, 5}; // Array init 0
+    int i = 0, j = 0;
+    for (i = 0; i < 2; i++)
+    for (j = 0; j < 3; j++)
+    printf("%d", a[i][j]);
+}
+```
+
+- Output: 1 2 3 4 5 0
+
+---
+
+```cpp
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char *a[2] = {"hello", "hi"};
+    printf("%d", sizeof(a));
+    return 0;
+}
+```
+
+- Pointers are blocks of memory (8 bytes on 64-bit machines) that reference memory addresses of any data type in C.
