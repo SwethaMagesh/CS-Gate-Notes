@@ -43,6 +43,15 @@
 - Int 4 & 4 bytes
 - [Reference](https://docs.oracle.com/cd/E19253-01/817-6223/chp-typeopexpr-2/index.html)
 
+### Misc
+- Case insensitive string compare: `strcasecmp(s, t)`
+- Illegeal Declaration:
+
+```cpp
+int size = 3;
+int array[size] = {1, 2, 3}; // If not initializied, this is valid
+```
+
 ### Doubts:
 - Typedef
 - precedence table
@@ -163,5 +172,41 @@ void main()
     return 0;
 }
 ```
+- Output: 16
+- Pointers are blocks of memory (**8 bytes** on 64-bit machines) that reference memory addresses of any data type in C.
 
-- Pointers are blocks of memory (8 bytes on 64-bit machines) that reference memory addresses of any data type in C.
+---
+
+```c++
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char a[2][6] = {"hello", "hi"};
+    printf("%d", sizeof(a));
+    return 0;
+}
+```
+Output: 12 (i.e. 2x6)
+
+---
+
+```cpp
+#include <stdio.h>
+int main()
+{
+    int a[4] = {1, 2, 3, 4};
+    int *p = &a[1]; // void
+    int *ptr = &a[2]; // void
+    int n = 1;
+    n = ptr - p;
+    printf("%d\n", n);
+}
+```
+
+Output: 1
+Output for void: 4
+
+---
+
+
