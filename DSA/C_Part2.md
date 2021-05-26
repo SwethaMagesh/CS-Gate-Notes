@@ -1,4 +1,6 @@
 ### Some points to remember
+- Pointers contain addresses. Adding, Subtracting, Dividing two addresses makes no sense because there is no idea what it would point to. Only Subtraction (To calculate the offset), Increment, Decrement, Adding integer, Subtracting integer is allowed. 
+- The maximum number of arguments that can be passed in a single function are **253**
 - Floating point numbers can have e,E
 - Switch can have default case in between also
 - volatile keyword - Compiler cannot optimise
@@ -42,6 +44,7 @@
 - Only long changes in 32 and 64 bits
 - Int 4 & 4 bytes
 - [Reference](https://docs.oracle.com/cd/E19253-01/817-6223/chp-typeopexpr-2/index.html)
+- Pointers (also change) are blocks of memory (**8/4 bytes** on 64-bit/32-bit machines) that reference memory addresses of any data type in C.
 
 ### Misc
 - Case insensitive string compare: `strcasecmp(s, t)`
@@ -173,7 +176,7 @@ void main()
 }
 ```
 - Output: 16
-- Pointers are blocks of memory (**8 bytes** on 64-bit machines) that reference memory addresses of any data type in C.
+- Pointers are blocks of memory (**8/4 bytes** on 64-bit/32-bit machines) that reference memory addresses of any data type in C.
 
 ---
 
