@@ -1,4 +1,8 @@
 - C and C++ are context-sensitive languages.
+## Differences
+
+- C doesn't have scope resolution operator (::). Only local scope can be accessed inside a function.
+
 ## Pointer
 - `int *A [10], B[10][10];  `
 - Of the following expressions
