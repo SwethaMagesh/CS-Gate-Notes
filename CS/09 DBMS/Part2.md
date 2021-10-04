@@ -41,8 +41,10 @@
 - PYQ related
 	- [Q1](https://www.geeksforgeeks.org/gate-gate-cs-2012-question-50/)
 		- `(A∪B)⋈A.Id>40∨C.Id<15C =  (A.Id>40((A∪B)×C)) ∪  (C.Id<15((A∪B)×C))`
+		
 	- [Q2](https://www.geeksforgeeks.org/gate-gate-cs-2012-question-43/)
-		- 
+		
+		
 ### Keys
 - Doubt - No of candidate keys in a Relation are nC(floor(n/2))? Why?
 - Candidate keys are super keys but not vice versa
