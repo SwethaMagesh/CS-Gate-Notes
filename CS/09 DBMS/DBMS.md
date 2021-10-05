@@ -1,6 +1,9 @@
 ### Functional Dependency
 - In general, a functional dependency α → β always holds- If either all values of α are unique or if all values of β are same or both.
-- Types: Trivial and Non trivial (RHS is subset of LHS)
+- Types: Trivial and Non trivial 
+    - X → Y is trivial only when Y is subset of X. 
+    - X → Y is called completely non-trivial when X intersect Y is NULL. 
+    - X → Y is called semi non-trivial when X intersect Y is not NULL. `Examples: AB → BC`
 ### Canonical cover
 - Irreducible set
 - ***Step1:*** Split RHS individually. Find closure with and without each FD to determine if it is essential. Eliminate unnecessary
@@ -27,6 +30,7 @@ A given relation is called in First Normal Form (1NF) if each cell of the table 
 - Or B is prime attribute
 ```
 - Non prime should not determine non prime
+-  If all attributes of relation are prime attribute, then the relation is always in 3NF.
 #### Boyce-Codd Normal form (BCNF)
 - `Every A-> B, A is a superkey`
 - BCNF - often lossless decomposition difficult and dependencies might not be preserved
@@ -36,6 +40,11 @@ A given relation is called in First Normal Form (1NF) if each cell of the table 
 #### 5NF
 - `No join dependency`
 - All joins must be lossless joins (no spurious tuples generated during join)
+---
+
+#### QUIZ:
+- [Quiz on Normalisation](https://www.geeksforgeeks.org/dbms-gq/database-design-normal-forms-gq/)
+
 ---
 #### A Note on Lossless and lossy decomposition
 - ***Lossless decomposition and non additive join*** 
