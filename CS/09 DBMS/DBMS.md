@@ -5,6 +5,7 @@
     - X → Y is called completely non-trivial when X intersect Y is NULL. 
     - X → Y is called semi non-trivial when X intersect Y is not NULL. `Examples: AB → BC`
 ### Canonical cover
+- [GATE VIDYALAY](https://www.gatevidyalay.com/canonical-cover-in-dbms/)
 - Irreducible set
 - ***Step1:*** Split RHS individually. Find closure with and without each FD to determine if it is essential. Eliminate unnecessary
 - ***Step2:*** If LHS has more than 1 attribute, then try to reduce that too.
