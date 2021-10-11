@@ -54,7 +54,7 @@ A given relation is called in First Normal Form (1NF) if each cell of the table 
 - ***Dependency preservation*** - All subrelations should satisfy the FD, and none of FDs should be lost
 - *Note: Lossy joins are also called careless joins*
 ---
-- ***Conditions for a lossless decomposition***
+***Conditions for a lossless decomposition***
 - If R is split into R1, R2,,
 - `R1 U R2 = R`
 - `R1 ⩃ R2 not NULL (There must be common attribute`
