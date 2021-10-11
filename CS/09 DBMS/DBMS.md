@@ -18,6 +18,13 @@
 - *Case 2:* In this case, multiple candidate keys are possible. To find the candidate keys, we check different combinations of essential and non-essential attributes.
 - ***Note: Number of superkeys is a combinatorial question*** 
 ---
+### Important NOTE for partial dependency:
+
+- A → B is called a partial dependency if and only if-
+- A is a subset of some candidate key
+- B is a **non-prime attribute**.
+- If any one condition fails, then it will not be a partial dependency.
+
 
 ### Normalisation 
 #### 1NF
