@@ -41,7 +41,10 @@ A given relation is called in First Normal Form (1NF) if each cell of the table 
 -  If all attributes of relation are prime attribute, then the relation is always in 3NF.
 #### Boyce-Codd Normal form (BCNF)
 - `Every A-> B, A is a superkey`
-- BCNF - often lossless decomposition difficult and dependencies might not be preserved
+- BCNF - BCNF decomposition is always lossless but not always dependency preserving.
+- Binary always BCNF
+- Zero redundancy in FD
+- Trivial only FD - BCNF
 #### 4NF
 - `NO multivalued dependency` ( different from multivalued attribute)
 - R(Eid, Phone1, Phone2, Phone3, Email1, Email2)
