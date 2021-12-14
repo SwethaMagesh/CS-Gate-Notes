@@ -6,7 +6,7 @@
 - [Closure table](https://www.geeksforgeeks.org/closure-properties-table-in-toc/)
 
 
-![image](https://user-images.githubusercontent.com/43994542/145185506-5dfe62be-4bc8-42db-8747-40314b9719e0.png)
+
 
 
 ---
@@ -14,6 +14,8 @@
 
 
 ## Notes
+- grammar rules is a quadruple (N, T, P, S)
+- If the strings of a language L can be effectively enumerated in lexicographic (i.e., alphabetic) order, L is recursive but not necessarily context free
 - Question one
   1. The complement of every Turning decidable language is Turning decidable
   2. There exists some language which is in NP but is not Turing decidable
@@ -52,3 +54,5 @@
 ![Screenshot (387)](https://user-images.githubusercontent.com/43994542/107757674-dd6fd280-6d4b-11eb-92d7-aa17c7f020d8.png)
 ![Screenshot (388)](https://user-images.githubusercontent.com/43994542/107757680-de086900-6d4b-11eb-8ab3-482ff06ffcab.png)
 ![Screenshot (389)](https://user-images.githubusercontent.com/43994542/107757682-dea0ff80-6d4b-11eb-853c-1b7472b652ba.png)
+
+![image](https://user-images.githubusercontent.com/43994542/145185506-5dfe62be-4bc8-42db-8747-40314b9719e0.png)
