@@ -1,3 +1,4 @@
+(From unacademy videos)
 ## Errors
 #### Types
 - Compiler errors
@@ -104,6 +105,7 @@
 Before calculating the first and follow functions, eliminate Left Recursion from the grammar, if present.
 ##### Note-03:
 We calculate the follow function of a non-terminal by looking where it is present on the RHS of a production rule.
+
 ---
 ### Top down parsers
 - ***Identify if LL(1) grammar*** 
