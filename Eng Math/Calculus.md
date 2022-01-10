@@ -36,8 +36,11 @@ RHL = f(a+0) = lt h->0 f(a+h)
 ```
 -----------
 ## L'Hopital Rule 
-- for finding limits of indeterminate forms
-- 
+- for finding limits of indeterminate forms like 0/0, inf/inf, 0 x inf, inf - inf, inf <sup>0</sup>, 0 <sup>0</sup>, 1<sup>inf</sup>
+
+
+![image](https://user-images.githubusercontent.com/43994542/148759954-d8d4ace1-dd2a-4b94-b8ee-8c8d2df2b144.png)
+
 
 ---
 ## MEAN VALUE THEOREM
