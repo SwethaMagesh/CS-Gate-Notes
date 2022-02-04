@@ -8,6 +8,9 @@ where, T(n) has the following asymptotic bounds:
 3. If f(n) = Ω(n<sup>log<sub>b</sub> a+ϵ</sup>), then T(n) = Θ(f(n)).
 
 ϵ &gt; 0 is a constant.
+(Great explanation on master theorem)[https://www.gatevidyalay.com/masters-theorem-solving-recurrence-relations/]
+
+- Master theorem only works for + and not - in recurrence relation. 
 
 ---
 
