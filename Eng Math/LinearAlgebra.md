@@ -1,4 +1,5 @@
 # Eigen Values & Matrices concepts: 
+### [Last min notes](https://www.geeksforgeeks.org/last-minute-notes-engineering-mathematics/)
 ## Facts
 1. “Eigen-vectors of a real symmetric matrix are orthogonal(perpendicular).”
 2. "Eigen values of a symmetric matrix are real"
